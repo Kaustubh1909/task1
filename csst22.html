@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Horizontal Navigation Bar</title>
+    <style>
+        .nav-list {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #2C3E50;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: #ECF0F1;
+            background-color: #3498DB;
+            padding: 15px 25px;
+            border-right: 1px solid #1ABC9C;
+        }
+
+        .nav-list li a:hover {
+            color: #2C3E50;
+            background-color: #1ABC9C;
+        }
+        
+        .nav-list li:last-child a {
+            border-right: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
